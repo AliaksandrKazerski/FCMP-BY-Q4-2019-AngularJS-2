@@ -1,0 +1,46 @@
+.main {
+  height: calc(100vh - 200px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .contacts-block {
+    display: flex;
+    height: 200px;
+
+    .photo {
+      width: 200px;
+      img {
+        overflow: hidden;
+        border-radius: 50%;
+      }
+    }
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      font-family: "MainBrandingFont",sans-serif;
+      font-size: 16px;
+      line-height: 1.4375;
+
+      &__name {
+        font-family: SecondaryBrandingFont, Arial, sans-serif;
+        font-size: 35px;
+        line-height: 1.2em;
+        color: rgb(57, 194, 215);
+      }
+
+      &__position {
+        color: rgb(163, 198, 68);
+      }
+
+      &__office {
+        color: #1a9cb0;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+
+
