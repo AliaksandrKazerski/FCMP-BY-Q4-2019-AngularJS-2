@@ -7,12 +7,20 @@ import {
   NotFoundComponent,
   HeaderComponent,
   FooterComponent,
+  SidebarComponent,
 } from './components';
 import {RouterModule} from '@angular/router';
 
 
 @NgModule({
-  declarations: [MainComponent, ContactsComponent, NotFoundComponent, HeaderComponent, FooterComponent],
+  declarations: [
+    MainComponent,
+    ContactsComponent,
+    NotFoundComponent,
+    HeaderComponent,
+    FooterComponent,
+    SidebarComponent,
+  ],
   imports: [
     CommonModule,
     RouterModule
